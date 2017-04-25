@@ -1,0 +1,61 @@
+@import "~antd/lib/style/themes/default";
+@import "~antd/lib/style/mixins/index";
+
+:global {
+  .bg-dark {
+    background-color: #404040;
+  }
+
+  .bg-light {
+    background-color: #fff;
+  }
+
+  .pull-left {
+    float: left;
+  }
+  .pull-right {
+    float: right;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-justify {
+    text-align: justify;
+  }
+  .text-nowrap {
+    white-space: nowrap;
+  }
+
+  .circle {
+    border-radius: 50%;
+  }
+
+  .vertical-align {
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
+
+  .vertical-align-middle, .vertical-align-bottom {
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  .vertical-align-middle {
+    vertical-align: middle;
+  }
+
+  .vertical-align-bottom {
+    vertical-align: bottom;
+  }
+}

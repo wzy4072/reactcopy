@@ -1,0 +1,67 @@
+:global {
+  .login-content {
+    .ant-select-selection--single {
+      height: 40px !important;
+      background-color: #fafafa;
+      .ant-select-selection__rendered {
+        line-height: 38px !important;
+      }
+    }
+    .ant-select-selection__placeholder, .ant-select-search__field__placeholder {
+      font-size: 14px;
+    }
+    .ant-select-combobox .ant-select-search__field {
+      height: 38px;
+      font-size: 14px;
+    }
+    .has-success.has-feedback:after,
+    .has-warning.has-feedback:after,
+    .has-error.has-feedback:after,
+    .is-validating.has-feedback:after {
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+    }
+  }
+}
+
+.main {
+  width: 450px;
+  height: auto;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  margin-left: -225px;
+  background: #fff;
+}
+
+.title {
+  padding: 24px;
+  text-align: center;
+  font-size: 18px;
+  .logo {
+    margin: 8px auto;
+    .img {
+      display: inline-block;
+      height: 39px;
+      width: 39px;
+      background: url("../../images/logo-icon.png");
+    }
+  }
+}
+
+.content {
+  padding: 0 24px 24px;
+  input[type=password] {
+    height: 40px;
+    padding: 9px;
+    font-size: 14px;
+    background-color: #fafafa;
+  }
+  button[type=submit] {
+    display: block;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+  }
+}
